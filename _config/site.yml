@@ -1,0 +1,9 @@
+profiles:
+  production:
+    base_url: http://www.lifeasageek.com/blog
+    deploy:
+      host: github_pages
+      # use gh-branch for repositories other than <username>.github.com
+      branch: gh-pages
+      # use master branch for <username>.github.com repository
+      #branch: master
